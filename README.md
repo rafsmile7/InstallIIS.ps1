@@ -1,1 +1,2 @@
-# InstallIIS.ps1
+import-module servermanager
+add-windowsfeature web-server -includeallsubfeature
